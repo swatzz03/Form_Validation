@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="course-details">
+            <h2>Course Title: Fundamentals of AI</h2>
+            <p><strong>Instructor:</strong> Dr. Emily Carter</p>
+            <p><strong>Duration:</strong> 8 weeks</p>
+            <p><strong>Description:</strong> This course offers a broad introduction to artificial intelligence, covering essential concepts such as machine learning, neural networks, and robotics. Students will explore the history, current trends, and future prospects of AI, while gaining hands-on experience with AI tools and platforms. Through practical assignments and case studies, participants will learn how AI is applied across various industries. This course is ideal for anyone interested in understanding the basics of AI and its potential impact on society.</p>
+            <p><strong>Start Date:</strong> October 15, 2024</p>
+        </div>
+
+        <div class="course-details">
+            <h2>Course Title: Data Analytics with Python</h2>
+            <p><strong>Instructor:</strong> Dr. Michael Lee</p>
+            <p><strong>Duration:</strong> 10 weeks</p>
+            <p><strong>Description:</strong> This course dives into the fundamentals of data analytics using Python, one of the most popular programming languages in the field. Students will learn how to collect, clean, and analyze data using Python libraries like Pandas, NumPy, and Matplotlib. The course includes real-world projects to apply data analytics techniques, making it ideal for aspiring data analysts and anyone interested in data-driven decision-making.</p>
+            <p><strong>Start Date:</strong> October 22, 2024</p>
+        </div>
+
+        <div class="course-details">
+            <h2>Course Title: Natural Language Processing (NLP)</h2>
+            <p><strong>Instructor:</strong> Dr. Sarah Johnson</p>
+            <p><strong>Duration:</strong> 12 weeks</p>
+            <p><strong>Description:</strong> This course provides an in-depth exploration of Natural Language Processing (NLP), a critical area of AI that focuses on the interaction between computers and human language. Students will learn about text processing, sentiment analysis, and machine translation, using popular NLP libraries like NLTK, SpaCy, and Transformers. Through hands-on projects, participants will build NLP models that can perform tasks such as text classification and language generation.</p>
+            <p><strong>Start Date:</strong> November 1, 2024</p>
+        </div>
+        </div>
+    <!--
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        
+    </div>-->  
+    <div class="form-container">
+        <form id="registrationForm">
+            <h2>Online Course Registration</h2>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+            
+            <label for="course">Course:</label>
+            <select id="course" name="course" required>
+                <option value="">Select a course</option>
+                <option value="Data Analytics With Python">Data Analytics With Python</option>
+                <option value="Fundamentals of AI">Fundamentals of AI</option>
+                <option value="Natural Language Processing">Natural Language Processing</option>
+            </select>
+    
+            <label for="graduationYear">Year of Graduation:</label>
+            <select id="graduationYear" name="graduationYear" required>
+                <option value="">Select your graduation year</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+            </select>
+            
+            <label for="domain">Domain of Interest:</label>
+            <select id="domain" name="domain" required>
+                <option value="" disabled selected>Select your domain of interest</option>
+                <option value="Natural Language Processing">Natural Language Processing (NLP)</option>
+                <option value="Computer Vision">Computer Vision</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="Deep Learning">Deep Learning</option>
+                <option value="Reinforcement Learning">Reinforcement Learning</option>
+                <option value="AI in Healthcare">AI in Healthcare</option>
+                <option value="AI in Finance">AI in Finance</option>
+                <option value="AI in Robotics">AI in Robotics</option>
+                <option value="Data Mining">Data Mining</option>
+                <option value="Big Data Analytics">Big Data Analytics</option>
+                <option value="Predictive Analytics">Predictive Analytics</option>
+                <option value="Recommendation Systems">Recommendation Systems</option>
+                <option value="AI Ethics">AI Ethics</option>
+                <option value="Speech Recognition">Speech Recognition</option>
+                <option value="AI in Autonomous Vehicles">AI in Autonomous Vehicles</option>
+                <option value="AI in Cybersecurity">AI in Cybersecurity</option>
+                <option value="AI for Social Good">AI for Social Good</option>
+                <option value="AI in Gaming">AI in Gaming</option>
+                <option value="AI in Agriculture">AI in Agriculture</option>
+                <option value="Explainable AI">Explainable AI (XAI)</option>
+            </select>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
